@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css')}}">
+    <title>DMW</title>
+</head>
+<body>
+    <h1 class='text-center'>Image Effects using Opencv</h1>
+    
+    <form class="p-3 text-center"  action='/' method="POST" enctype="multipart/form-data">
+        <label for="upload">Upload Image here: </label>
+            <input class="form-control" type="file" id="upload" name="imagefile"><br>
+            <h1 style=" text-align: center;">Click below to choose & apply Effect to your Image 👇</h1>
+        <figure>
+            <div class="container" style="float:left;">
+                <img src="https://photoshopcafe.com/wp-content/uploads/2019/03/photo-pencil-drawing-photoshop_21.jpg"/>
+                <p class="title" style="color: black;">SKETCH</p>
+                <div class="overlay"></div>
+                <div><input class="button" type="submit" name='submit_button' value="Sketch" >
+
+            </div></div>
+
+            <div class="container" style="float:right;">
+                <img src="https://designshack.net/wp-content/uploads/Free-Cartoon-Art-Photoshop-Action.jpg"/>
+                <p class="title">CARTOON</p>
+                <div class="overlay"></div>
+                <div><input class="button" type="submit" name='submit_button' value="Cartoon" >
+
+            </div></div>
+
+            <div class="container" style="float:left;">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Vermeer-view-of-delft.jpg/350px-Vermeer-view-of-delft.jpg"/>
+                <p class="title" style="color: black;">OIL PAINTING</p>
+                <div class="overlay"></div>
+                <div><input class="button" type="submit" name='submit_button' value="Oil" >
+
+            </div></div>
+
+            <div class="container" style="float:right;" >
+                <img src="https://i.pinimg.com/564x/17/1e/ba/171ebaf7d745f30f33a98287cf666432.jpg" />
+                <p class="title">WATER PAINTING</p>
+                <div class="overlay"></div>
+                <div><input class="button" type="submit" name='submit_button' value="Water" >
+
+            </div></div>
+
+            <div class="container" style="float:left;">
+                <img src="https://www.thephotoargus.com/wp-content/uploads/2019/04/blackandwhitephoto04.jpg"/>
+                <p class="title" style="color: black;">GRAYSCALE</p>
+                <div class="overlay"></div>
+                <div><input class="button" type="submit" name='submit_button' value="Gray" >
+
+            </div></div>
+
+            <div class="container" style="float:right;">
+                <img src="https://www.4freephotos.com/medium/batch/Blurred-lights772.jpg"/>
+                <p class="title">BLUR</p>
+                <div class="overlay"></div>
+                <div><input class="button" type="submit" name='submit_button' value="Blur" >
+
+            </div></div>
+        </figure>
+           
+    </form>
+<br>
+</body>
+</html>
