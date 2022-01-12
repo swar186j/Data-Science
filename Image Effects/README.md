@@ -1,4 +1,4 @@
-## •	Motivation
+## Motivation
   *	With the advancement in technology, photography and photo editing has gained a lot of popularity worldwide.
   *	Photo editing softwares also known as ‘Photo editors’ provide a large variety of tools to enhance your photos and style them according to your choice. 
   * This type of app offers a wide range of diverse features from cropping, controlling shutter speed, and adding filters.
